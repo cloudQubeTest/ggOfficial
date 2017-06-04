@@ -7,7 +7,7 @@ var Server = (function () {
     function Server() {
         var _this = this;
         debug('ts-express:server');
-        this.portValue = this.normalizePort(process.env.PORT || 1337);
+        this.portValue = this.normalizePort(process.env.PORT || 80);
         App_1["default"].set('port', this.portValue);
         this.server = http.createServer(App_1["default"]);
         this.server.listen(this.portValue);
