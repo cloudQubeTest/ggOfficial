@@ -1,0 +1,74 @@
+<html>
+	<head> 
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+		<link rel="stylesheet" href="../Styles/cutStyles.css">
+	</head>
+	</head>
+	<body onload="initXHR('recipes', null)">
+		<div class="container">
+
+		  <!-- Static navbar -->
+		  <nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+			  <div class="navbar-header">
+					<a class="navbar-brand" href="index.html" title="Gainz Goalz">
+        <img style="max-width:65px; margin-top: -14px;"
+             src="../Images/logo.png"></a>
+				<a class="navbar-brand" href="javascript:initXHR('recipes', null)">Gainz Goalz</a>
+			  </div>
+			  <div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+				  <li><a href="#">Cut</a></li>
+					<li><a href="#">Maintain</a></li>
+					<li><a href="#">Bulk</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				  <li><a href="#">Login</a></li>
+				</ul>
+			  </div><!--/.nav-collapse -->
+			</div><!--/.container-fluid -->
+		  </nav>
+		  
+		<div id="home">
+		  <!-- Main component for a primary marketing message or call to action -->
+		  <div class="jumbotron">
+			<h1></h1>
+			<p></p>
+			<p>
+			  <a class="btn btn-lg btn-primary" href="javascript:initXHR('recipes', null)" role="button"></a>
+			</p>
+		  </div>
+		</div>
+		
+		<div id="recipes" style="display:none;">
+		</div>
+
+		<div id="sRecipe" style="display:none;">
+
+
+			 
+				<!-- Table -->
+				<table class="table" style="font-size:10pt;">
+					<thead>
+					</thead>
+					<tbody id='details'>
+					</tbody>
+				</table>
+			
+		</div>
+		
+		</div> <!-- /container -->
+	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="/script.js"></script>
+	</body>
+</html>

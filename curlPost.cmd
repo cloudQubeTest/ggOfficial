@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d “{\"recipeTitle\":\"Asher’s Treat\",\"recipeId\":\"101\",\"ingredients\":\"bone\",\"instructions\":\"place on floor\",\"calories\":10}" http://localhost:8080/app/recipe
