@@ -74,9 +74,10 @@ class App {
     this.express.use('/app/json/', express.static(__dirname+'/app/json'));
     this.express.use('/images', express.static(__dirname+'/Images'));
     this.express.use('/styles', express.static(__dirname+'/Styles'));
-    this.express.use('/', express.static(__dirname+'/pages')); */
+    this.express.use('/', express.static(__dirname+'/pages'));
 
     this.express.use('/', express.static(__dirname+'/dist'));
+    */
 
         this.express.use('/', router);
 
